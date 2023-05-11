@@ -1,0 +1,19 @@
+{
+  "name": "Himanshu",
+  "age": 24,
+  "skils": ["JS", "TS"],
+  "personalInfo": {
+    "fatherName": "Arvind",
+    "motherName": "Kalpana"
+  },
+  "addresses": [
+    {
+      "city": "Deori",
+      "district": "Sagar"
+    },
+    {
+      "city": "Deori",
+      "district": "Sagar"
+    }
+  ]
+}

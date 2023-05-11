@@ -1,0 +1,32 @@
+{
+  "moduleName": "User",
+  "endPoints": [
+    {
+      "type": "QUERY",
+      "name": "getAllUsers",
+      "url": "/users",
+      "method": "GET",
+      "argTypes": "PaginationType",
+      "args": "body",
+      "tags": ["users"]
+    },
+    {
+      "type": "QUERY",
+      "name": "getUser",
+      "url": "/user/",
+      "method": "GET",
+      "args": "id",
+      "argTypes": "string",
+      "tags": ["users"]
+    },
+    {
+      "type": "MUTATION",
+      "name": "addUser",
+      "url": "`/user/add/${id}`",
+      "method": "POST",
+      "args": "{body, id}",
+      "argTypes": "AddUser",
+      "tags": ["users"]
+    }
+  ]
+}
